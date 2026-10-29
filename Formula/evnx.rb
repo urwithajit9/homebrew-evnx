@@ -1,28 +1,28 @@
 class Evnx < Formula
   desc "Manage .env files — validate, scan for secrets, convert formats, and sync them end-to-end encrypted"
   homepage "https://www.evnx.dev"
-  version "0.10.18"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/urwithajit9/evnx/releases/download/v#{version}/evnx-aarch64-apple-darwin.tar.gz"
-      sha256 "264d8bb7ccb9bf4edbb450de206eb118badf3d7d762fd03e3090c4b38560e49e"
+      sha256 "7839eb44ff348b1d13a280f8567fd2336f6832ae9f7c7bda614b2b1958f73f28"
     end
     on_intel do
       url "https://github.com/urwithajit9/evnx/releases/download/v#{version}/evnx-x86_64-apple-darwin.tar.gz"
-      sha256 "87d8cdf487460f4308dae6f8c43933a5f9f3a9f1166fbf8e3ccb7421793e557d"
+      sha256 "2ec34ff1bb58d8c0ce89898f1e44017506581a46d41fd4d3560ef322d50bbaf3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/urwithajit9/evnx/releases/download/v#{version}/evnx-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c0fa20499b28fc47e9d03b5f91b7c556d78c6edec1266dbad8127e9e7f4e9444"
+      sha256 "5a3fd2a6abcfb412d14e9bed6328eb2bd7ee27465c7148f0ec3e4285e8daabdc"
     end
     on_intel do
       url "https://github.com/urwithajit9/evnx/releases/download/v#{version}/evnx-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "7b6ba08e954faf13e5aaccf39d58f4cdc80fe1b29c3d434a407cb48d6c1a4ce0"
+      sha256 "e931d6d882deba924c940ea46e1d84781851fec372d71d6e289f7ba98eb914cc"
     end
   end
 
